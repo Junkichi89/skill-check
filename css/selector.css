@@ -1,0 +1,44 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+.wrap {
+  /* background: blue;
+  padding: 10px; */
+}
+
+.selector {
+  /* padding-top: 10px;
+  font-size: 30px;
+  color: red; */
+}
+
+.selector:not(#exclude) {
+  /* background: yellow; */
+}
+
+.selector + .selector {
+  /* background: red; */
+  /* padding-top: 10px; */
+}
+
+.indirect ~ .selector {
+  /* font-size: 30px; */
+}
+
+.wrap .mago {
+  color: yellow;
+  /* background: #000; */
+}
+
+.selector .mago {
+  color: pink;
+}
+
+.selector > .mago {
+  color: green;
+}
+
+a.btn[href="/flex.html"] {
+  /* background: pink; */
+}
